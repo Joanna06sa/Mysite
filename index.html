@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAINE IT SP Z O O</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', serif;
+      font-weight: bold;
+      font-size: 22px;
+      margin: 0;
+      background-color: #f6f7fb;
+      color: #1a1a1a;
+    }
+
+    section {
+      padding: 60px 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .main-screen {
+      background-color: #1f3b73;
+      color: white;
+      text-align: center;
+      padding: 150px 50px;
+    }
+
+    .main-screen h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+    }
+
+    .main-screen p {
+      font-size: 28px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .about-text {
+      width: 55%;
+    }
+
+    .about img {
+      width: 40%;
+      border-radius: 15px;
+    }
+
+    .services, .advantages, .process {
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .services-list, .advantages-list, .process-list {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .service, .advantage, .step {
+      width: 28%;
+      background-color: #f0f2f8;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form, .contact {
+      text-align: center;
+    }
+
+    .contact-form p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+
+    .contact {
+      background-color: #1f3b73;
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contact a {
+      color: #ffdd55;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- 1. GŁÓWNY EKRAN -->
+  <section class="main-screen">
+    <h1>GAINE IT SP Z O O</h1>
+    <p>Pomagamy małym firmom rozwijać się technologicznie dzięki skutecznym rozwiązaniom IT.  
+       Oferujemy wsparcie programistyczne, konsultacje techniczne i stałą opiekę informatyczną — tak, aby Twoja firma mogła skupić się na tym, co najważniejsze.</p>
+  </section>
+
+  <!-- 2. O NAS -->
+  <section class="about">
+    <div class="about-text">
+      <h2>Kim jesteśmy</h2>
+      <p>GAINE IT SP Z O O to zespół specjalistów IT z doświadczeniem w pracy z małymi i średnimi przedsiębiorstwami.  
+         Naszym celem jest dostarczanie praktycznych, skalowalnych i dopasowanych do potrzeb rozwiązań technologicznych.  
+         Oferujemy pełne wsparcie — od analizy wymagań po wdrożenie i utrzymanie systemów.  
+         Wierzymy, że technologia powinna być narzędziem wspierającym rozwój biznesu, a nie barierą.  
+         Działamy z pasją, precyzją i odpowiedzialnością, pomagając naszym klientom osiągać realne wyniki.</p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" alt="Zespół GAINE IT">
+  </section>
+
+  <!-- 3. NASZE USŁUGI -->
+  <section class="services">
+    <h2>Co możemy dla Ciebie zrobić</h2>
+    <div class="services-list">
+      <div class="service">
+        <h3>Technical Consulting Services</h3>
+        <p>Doradzamy w wyborze i wdrażaniu rozwiązań IT, które najlepiej odpowiadają specyfice Twojej firmy.  
+           Analizujemy potrzeby biznesowe i proponujemy praktyczne strategie technologiczne.</p>
+      </div>
+      <div class="service">
+        <h3>IT & Soft Support</h3>
+        <p>Zapewniamy pełne wsparcie techniczne – od utrzymania sprzętu po administrację systemami.  
+           Nasz zespół jest zawsze gotowy, aby rozwiązać problemy szybko i skutecznie.</p>
+      </div>
+      <div class="service">
+        <h3>Computer Programming Services</h3>
+        <p>Tworzymy dedykowane oprogramowanie dla małych firm — od prostych aplikacji po systemy zarządzania.  
+           Skupiamy się na użyteczności, bezpieczeństwie i długofalowej stabilności.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. DLACZEGO MY -->
+  <section class="advantages">
+    <h2>Dlaczego warto współpracować z GAINE IT</h2>
+    <div class="advantages-list">
+      <div class="advantage">
+        <h3>Indywidualne podejście</h3>
+        <p>Każdy projekt traktujemy unikalnie — rozwiązania dopasowujemy do konkretnego celu biznesowego.</p>
+      </div>
+      <div class="advantage">
+        <h3>Szybka reakcja i wsparcie</h3>
+        <p>Reagujemy błyskawicznie na zgłoszenia klientów, dbając o ciągłość działania ich systemów.</p>
+      </div>
+      <div class="advantage">
+        <h3>Doświadczenie i zaufanie</h3>
+        <p>Nasze wieloletnie doświadczenie w branży IT pozwala dostarczać usługi najwyższej jakości.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. NASZ PROCES -->
+  <section class="process">
+    <h2>Jak przebiega współpraca</h2>
+    <div class="process-list">
+      <div class="step">
+        <h3>Krok 1: Analiza potrzeb</h3>
+        <p>Rozmawiamy z Tobą, aby dokładnie zrozumieć cele, wyzwania i oczekiwania Twojej firmy.</p>
+      </div>
+      <div class="step">
+        <h3>Krok 2: Propozycja i wdrożenie</h3>
+        <p>Opracowujemy plan działań i wdrażamy rozwiązania IT dopasowane do realiów Twojego biznesu.</p>
+      </div>
+      <div class="step">
+        <h3>Krok 3: Stałe wsparcie</h3>
+        <p>Monitorujemy systemy i oferujemy ciągłą pomoc, byś zawsze miał pewność stabilnego działania.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. KONTAKTOWY FORMULARZ -->
+  <section class="contact-form">
+    <h2>Porozmawiajmy o Twoim projekcie</h2>
+    <p>Chcesz dowiedzieć się, jak możemy pomóc Twojej firmie?  
+       Wypełnij formularz kontaktowy, a nasz specjalista odezwie się w ciągu 24 godzin.</p>
+    <p>Zapytaj nas o wsparcie techniczne, doradztwo lub dedykowane rozwiązania programistyczne.  
+       Jesteśmy tu, aby pomóc.</p>
+  </section>
+
+  <!-- 7. KONTAKT -->
+  <section class="contact">
+    <h2>Skontaktuj się z nami</h2>
+    <p>Chcesz dowiedzieć się więcej? Napisz do nas – odpowiemy na każde pytanie i pomożemy zaplanować działania IT, które usprawnią Twój biznes.</p>
+    <p>📧 <a href="mailto:office@gaineit.org">office@gaineit.org</a></p>
+    <p>🏢 Ul. Tamka 29-17, Warszawa 00-355</p>
+  </section>
+
+</body>
+</html>
